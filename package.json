@@ -1,0 +1,64 @@
+{
+  "name": "static-page-starterkit",
+  "version": "1.2.2",
+  "description": "정적페이지 Starter kit",
+  "main": "index.js",
+  "scripts": {
+    "gaeng": "gulp",
+    "bundle:js": "gulp bundle-js",
+    "bundle:lib": "gulp bundle-lib",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "static page",
+    "simple html",
+    "html",
+    "css",
+    "scss",
+    "html include",
+    "정적페이지",
+    "html 인클루드",
+    "gulp",
+    "babel",
+    "es6",
+    "퍼블리싱"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaenglovesdev/static-starter-kit.git"
+  },
+  "author": "gaenglovesdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaenglovesdev/static-starter-kit/issues"
+  },
+  "homepage": "https://github.com/gaenglovesdev/static-starter-kit#readme",
+  "devDependencies": {
+    "@babel/register": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "7.1.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "browser-sync": "^2.26.7",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-ejs": "^4.1.1",
+    "gulp-file-cache": "0.0.1",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webpack": "^1.5.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
